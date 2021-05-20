@@ -1,0 +1,1 @@
+nohup python -u main.py --model FADN --dir_data /home --data_test Set5  --test_only --pre_train model_best.pt --scale 2 --ext bin --gpu_id 3 --chop --n_GPUs 1 --rgb_range 255 --n_colors 3 --n_feats 64 --n_resblocks 3 --save test_fadn --save_results > test_fadn.txt
